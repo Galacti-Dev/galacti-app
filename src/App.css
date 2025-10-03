@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+/* Dodaj na końcu pliku src/App.css */
+
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
+.planet-info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 100;
+  border: 1px solid #444;
+}
+
+.planet-info h2 {
+  margin: 0 0 10px 0;
+  color: #61dafb;
+}
+
+.planet-info p {
+  margin: 5px 0;
+}
